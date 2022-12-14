@@ -82,7 +82,7 @@ const Home = () => {
       <div className="badge-container grow">
         <a href="https://codiest.co" target="_blank" rel="noreferrer">
           <div className="badge">
-            <Image src={buildspaceLogo} alt="codiest logo" />
+            <Image src={buildspaceLogo} alt="codiest logo alt" />
             <p>build with codiest</p>
           </div>
         </a>
