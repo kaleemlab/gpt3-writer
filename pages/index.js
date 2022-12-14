@@ -38,11 +38,15 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>sup, insert your headline here</h1>
+            <h2>
+              {" "}
+              High Quality Copy For Emails, Ads, Websites, Listings, Blogs &
+              More
+            </h2>
           </div>
-          <div className="header-subtitle">
-            <h2>insert your subtitle here</h2>
-          </div>
+          {/* <div className="header-subtitle">
+            <h2>Your all time</h2>
+          </div> */}
         </div>
         <textarea
           className="prompt-box"
@@ -76,14 +80,10 @@ const Home = () => {
         </div>
       )}
       <div className="badge-container grow">
-        <a
-          href="https://buildspace.so/builds/ai-writer"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://codiest.co" target="_blank" rel="noreferrer">
           <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
+            <Image src={buildspaceLogo} alt="codiest logo" />
+            <p>build with codiest</p>
           </div>
         </a>
       </div>
